@@ -1,0 +1,471 @@
+
+
+
+1.
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int n,i,x,j,is_prime;
+	
+	cout<<"Enter the first integer: ";
+	cin>>x;
+	cout<<"Enter the second integer: ";
+	cin>>n;
+	
+	
+	for(i = x; i <= n; i = i + 1){
+		is_prime=0;
+	for ( j = 2; j < i;  j= j + 1){
+		if(i%j==0){
+			is_prime=1;
+			break;
+			}
+		}
+		if(is_prime==0){
+			cout<<i<<" ";
+		}
+	}
+  
+  return 0;
+}
+
+2.
+
+
+
+
+
+
+
+
+3.
+
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int n,i,x,j,sum;
+	
+	cout<<"Enter the first integer: ";
+	cin>>x;
+	cout<<"Enter the last integer: ";
+	cin>>n;
+	
+	for(i=x; i<=n; i++){
+
+	sum=0;
+	for(j=1; j<i; j=j+1){
+		if(i%j==0){
+		sum=sum+j;
+		}
+	}
+	
+	if(sum==i){
+		cout<<i<<" ";
+		}
+	
+	
+	}
+	
+  return 0;
+}
+
+
+
+
+
+4.
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int x,i,sum;
+	
+	cout<<"Enter the value of x: ";
+	cin>>x;
+	
+	
+	sum=0;
+	for ( i = 0; i <= x; i = i + 1){
+	    
+	    if(i%2!=0){
+	    	sum=sum+i*i;
+		}
+		
+	}
+	
+	cout <<sum;
+  
+  return 0;
+}
+
+
+
+5.
+
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int x,i,j,sum,power;
+	
+	cout<<"Enter the value of x: ";
+	cin>>x;
+	
+	
+	sum=0;
+	for ( i = 1; i <= x; i++){
+	    
+	    power=1;
+	    for(j=1; j<=i; j++){
+	    	
+	    		power=power*i;
+	    }
+		sum=sum+power;
+	}
+	
+	cout <<sum;
+  
+  return 0;
+}
+
+
+
+6.
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int x,i,j;
+	float sum,power;
+	
+	cout<<"Enter the value of x: ";
+	cin>>x;
+	
+	
+	sum=0;
+	for ( i = 1; i <= x; i++){
+	    
+	    power=1;
+	    for(j=1; j<=i-1; j++){
+	    	
+	    		power=power*i;
+	    }
+	    
+		sum=sum+ 1/ ( 1.0 * power);
+	}
+	
+	cout <<sum;
+  
+  return 0;
+}
+
+
+
+
+
+7.
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int x,i,j,sum,power;
+	
+	
+	cout<<"Enter the value of x: ";
+	cin>>x;
+	
+	
+	sum=0;
+	for ( i = 1; i <= x; i++){
+	    
+	    power=1;
+	    for(j=1; j<=i; j++){
+	    	
+	    		power=power*j;
+	    }
+	    
+		sum=sum+ power;
+	}
+	
+	cout <<sum;
+  
+  return 0;
+}
+
+
+
+8.
+
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int factorial (int);
+float power (float, int);
+
+int main() 
+{
+	int i,n,fac;
+	float x,temp,sum,pow;
+	
+	cout<<"Enter the value of x: ";
+	cin>>x;
+	cout<<"Enter the value of n: ";
+	cin>>n;
+	
+	
+	sum=0;
+	for ( i =0; i<=n; i++){
+		pow=power(x,i);
+		fac=factorial(i);
+	
+	 	temp=pow/fac;
+	 	sum=sum+temp;
+	
+	}
+	
+	cout<<"e^"<<x<<"="<<sum;
+  
+  return 0;
+}
+
+
+int factorial (int n){
+	int i,f;
+	
+	
+	f=1;
+	for(i=1;i<=n; i++){
+		f=f*i;
+	}
+	
+	return f;
+	 	
+}
+
+
+float power (float x, int y ){
+	int i;
+	float p;
+	
+	p=1;
+	for(i=1;i<=y; i++){
+		p=p*x;
+	}
+	
+	return p;
+	 	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+11.      
+
+                   (A)
+
+
+1
+12
+123
+1234
+12345
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int i,j;
+	
+	
+	
+	for ( i = 1; i <= 5; i++){
+		
+		for ( j = 1; j <=i; j++){
+		    	cout<<j;
+			}
+	  cout<<endl;	    
+	}
+	
+	
+
+  
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+5
+54
+543
+5432
+54321
+543210
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int i,j;
+	
+	
+	
+	for ( i = 0; i <= 5; i++){
+		
+		for ( j = 0; j <=i; j++){
+		    	cout<<5-j;
+			}
+	  cout<<endl;	    
+	}
+	
+	
+
+  
+  return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                            B
+
+
+
+
+
+
+
+
+
+
+54321
+5432
+543
+54
+5
+
+
+
+
+
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main() 
+{
+	int i,j;
+	
+	
+	
+	for ( i = 1; i <= 5; i++){
+		
+		for ( j = 0; j <=5-i; j++){
+		    	cout<<5-j;
+			}
+	  cout<<endl;	    
+	}
+	
+	
+
+  
+  return 0;
+}

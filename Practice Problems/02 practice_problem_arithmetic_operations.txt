@@ -1,0 +1,344 @@
+
+1.
+
+
+
+
+#include <iostream>
+using namespace std;
+
+    int main()
+    {
+    	float r, area, circum,PI = 3.1416;
+    	 
+		cout << " Find the area and circumference of any circle.......";
+		cout <<endl;
+        cout<<" Input the r : ";
+    	cin>>r;
+	
+		circum = 2*PI*r;
+		area = PI*(r*r);
+        cout<<" The area : "<< area << endl;
+        cout<<" The circumference: "<< circum;		
+		
+        
+        return 0;
+    }
+
+
+
+2.
+
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+    	float w, l, area, perimeter;
+    	
+		cout << " Find the area and perimeter of any rectangle.......";
+		cout <<endl;
+        cout<<" Input the l : ";
+    	cin>>l;
+	    cout<<" Input the W : ";
+    	cin>>w;
+	
+		perimeter = 2*(l+w);
+		area = l*w;
+        cout<<" The area : "<< area << endl;
+        cout<<" The perimeter: "<< perimeter;		
+		
+        return 0;
+    }
+
+
+3.
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+    	float h, b, area;
+ 
+		cout << " Find the area of A triangle.......";
+		cout <<endl;
+        cout<<" Input the h : ";
+    	cin>>h;
+	    cout<<" Input the b: ";
+    	cin>>b;
+	
+		area = (h*b)/2;
+        cout<<" The area of the triangle : "<< area;
+		
+        return 0;
+    }
+
+
+
+
+
+4. 
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+    	float h,height;
+        cout<<" Input the height in meter h : ";
+    	cin>>h;
+	
+        height = ((h*100)/2.54)/12;
+		
+        cout<<" The user's height in feet: "<< height;
+		
+        return 0;
+    }
+
+
+
+5.
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+    	float f,c,k;
+        cout<<" Input the f : ";
+    	cin>>f;
+	
+		c = ((f-32)*5)/9;
+		k = c + 273.15;
+        cout<<" The temperature in Celsius: "<< c <<endl;
+        cout<<" The temperature in Kelvin: "<< k;
+		
+        return 0;
+    }
+
+
+6.
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       int d,m,y;
+        cout<<" Input the days : ";
+    	cin>>d;
+	
+		y = d/365;
+		d = d%365;
+		m = d/30;
+		d = d%30;
+		
+        cout<<y<<" years "<<m<<" months "<<d<<" days .";
+        
+        return 0;
+    }
+7.
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       int h,d,w;
+        cout<<" Input the hours : ";
+    	cin>>h;
+	
+		d = h/24;
+		h = h%24; //rest of the hours
+		w = d/7;
+		d = d%7; //rest of the days
+		
+        cout<<w<<" weeks "<<d<<" days "<<h<<" hours .";
+        
+        return 0;
+    }
+
+
+
+
+8.
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int a , b;
+    
+    cout << "Before swapping." << endl;
+    cout << "a = "; 
+    cin >> a;
+    cout << "b = ";
+    cin >> b;
+
+    a = a + b;
+    b = a - b;
+    a = a - b;
+
+    cout << "After swapping." << endl;
+    cout << "a = " << a << endl;
+    cout << "b = " << b;
+
+    return 0;
+}
+
+
+
+
+
+
+9.
+
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    
+    int a , b , c;
+    
+    cout << "Before swapping." << endl;
+    cout << "a = "; 
+    cin >> a;
+    cout << "b = ";
+    cin >> b;
+
+    c=a;
+    a=b;
+    b=c;
+
+    cout << "After swapping." << endl;
+    cout << "a = " << a << endl;
+    cout << "b = " << b;
+
+    return 0;
+}
+
+
+
+
+10.
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x,r;
+    cout<<"Give me a three degit integer: ";
+    cin>>x;
+    
+    r= x % 10;
+    cout<<r;
+    x=x/10;
+    r=x%10;
+    cout<<r;
+    x=x/10;
+    r=x%10;
+    cout<<r;
+
+
+    return 0;
+}
+
+
+
+
+11.
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x,r;
+    cout<<"Give me a three degit integer: ";
+    cin>>x;
+    
+    r= x % 10;
+    cout<<r;
+    
+
+
+    return 0;
+}
+
+
+
+12.
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    int x;
+    float y;
+    cout<<"Give me a number with integer and decimal: ";
+    cin>>y;
+
+    x=y;
+    cout<<"integer = "<<x;
+    y= y-x;
+    cout<<"  decimal = "<<y;
+    
+    
+    
+
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

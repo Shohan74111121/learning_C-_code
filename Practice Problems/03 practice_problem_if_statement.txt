@@ -1,0 +1,914 @@
+1.
+
+#include <iostream>
+ 
+ using namespace std;
+  
+  int main ()
+  {
+  	int x;
+  	cout<<"Enter an integer: ";
+  	cin>>x;
+  	
+  	if (x % 2 ==0) {
+  		cout<<"EVEN NUMBER.";
+	  }
+    else
+	   cout<<"ODD NUMBER.";        
+   } 
+
+
+
+
+
+2.
+
+
+
+#include <iostream>
+ 
+ using namespace std;
+  
+  int main ()
+  {
+  	int x;
+  	cout<<"Enter an integer: ";
+  	cin>>x;
+  	
+  	if (x > 0) {
+  		cout<<"POSITIVE NUMBER.";
+	  }
+	else if (x==0){
+		cout<<"NEITHER POSITIVE OR NEGATIVE.";
+	}
+    else
+	   cout<<"NEGATIVE NUMBER.";        
+   } 
+
+
+
+
+
+
+
+3.
+
+
+
+
+                              NOT DONE
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+4.
+
+
+
+#include <iostream>
+ 
+ using namespace std;
+  
+  int main ()
+  {
+  	int x;
+  	cout<<"Enter an integer: ";
+  	cin>>x;
+  	
+  	if ( (x % 5 ==0) || (x % 7 == 0)) {
+  		cout<<"Devisible by 5 or 7.";
+	  }
+    else
+	   cout<<"Not devisible by 5 or 7";        
+   } 
+
+
+
+
+5.
+
+
+
+
+#include <iostream>
+ 
+ using namespace std;
+  
+  int main ()
+  {
+  	int x;
+  	cout<<"Enter an integer: ";
+  	cin>>x;
+  	
+  	if ( (x % 3 ==0) && (x % 5 == 0)) {
+  		cout<<"Devisible by 3 and 5.";
+	  }
+    else
+	   cout<<"Not devisible by 3 and 5";        
+   } 
+
+
+
+
+6.
+
+
+
+#include <iostream>
+ 
+ using namespace std;
+  
+  int main ()
+  {
+  	int x;
+  	cout<<"Enter an integer: ";
+  	cin>>x;
+  	
+  	if (( (x>50) && (x<100) ) && ((x%13==0) || (x%9==0))) {
+  		cout<<" YES ";
+	  }
+    else
+	   cout<<" NO ";        
+   
+ return 0;
+  }
+
+
+
+
+Extra
+
+
+
+
+#include <iostream>
+ 
+ using namespace std;
+  
+  int main ()
+  {
+  	int x;
+  	cout<<"Enter an integer: ";
+  	cin>>x;
+  	
+  	if (( (x>50) && (x<100) ) && (x%13==0)) {
+  	    
+  		cout<<" YES ";
+	  }
+	  
+	  
+	 
+	else if (( (x>50) && (x<100) ) &&  (x%9==0)) {
+	    
+	    
+  		cout<<" YES ";
+	  }
+    else
+	   cout<<" NO ";        
+   
+    return 0;
+ 
+  }
+
+
+
+7.
+
+
+
+#include <iostream>
+ 
+ using namespace std;
+  
+  int main ()
+  {
+  	int x;
+  	cout<<"Enter an integer: ";
+  	cin>>x;
+  	
+  	if (( (x>=35) && (x<75) ) && (x%5==0)) {
+  		
+		  if (x%2==0){
+  			cout<<"NO";}
+  		 else 
+		  cout<<"Yes";	
+		  }
+  	
+	  
+    else
+	   cout<<" NO ";        
+   } 
+
+
+8.
+
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       int x;
+        cout<<" Input a number : ";
+    	cin>>x;
+    	
+    	
+    	if  ((((x>10) && (x<40)) && (x % 5 ==0)) || (((x>60) && (x<90)) && (x % 7 ==0)))
+		{
+    		
+    		cout<<"Yes";
+    		
+		}
+		
+		else 
+		  cout<<"No";
+		
+        
+        
+        return 0;
+    }
+
+
+
+
+
+Extra.
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       int x;
+        cout<<" Input a number : ";
+    	cin>>x;
+    	
+    	
+    	if  (((x>10) && (x<40)) && (x % 5 ==0)){
+    		
+    		cout<<"Yes";
+    		
+		}
+		
+		else if (((x>60) && (x<90)) && (x % 7 ==0))
+		{
+    		
+    		cout<<"Yes";
+    		
+		}
+		
+		else 
+		  cout<<"No";
+		
+        
+        
+        return 0;
+    }
+
+
+
+
+9.
+
+
+
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       int x;
+        cout<<"Enter your mark :";
+    	cin>>x;
+    	
+    	
+    	if ( x>=85 && x<=100)
+		{
+          cout<<"A";		
+		}	
+    		
+    	else if	( x>=80	)
+		{
+          cout<<"A-";
+		}
+		
+		else if	( x>=75)
+		{
+          cout<<"B+";
+		}
+	
+		else if	( x>=70)
+		{
+          cout<<"B";
+		}
+		
+		else if	( x>=65)
+		{
+          cout<<"B-";
+		}
+		
+		else if	( x>=60)
+		{
+          cout<<"C+";
+		}
+	
+		else if	( x>=55)
+		{
+          cout<<"C";
+		}
+		
+		else if	( x>=50)
+		{
+          cout<<"C-";
+		}
+		
+		else if	( x>=45)
+		{
+          cout<<"D+";
+		}
+	
+		else if	( x>=40)
+		{
+          cout<<"D";
+		}
+		
+		
+		else
+		{
+          cout<<"F";
+		}
+		
+		
+		
+        
+        
+        return 0;
+    }
+
+
+
+
+
+
+
+10.
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       int x;
+        cout<<"Enter your age :";
+    	cin>>x;
+    	cout<<endl;
+    	cout<<endl;
+    	
+    	if ( x<3)
+		{
+          cout<<"Infancy";		
+		}	
+    		
+    	else if	( x<12	)
+		{
+          cout<<"Childhood";
+		}
+		
+		else if	(x<20)
+		{
+          cout<<"Adolescence";
+		}
+	
+		else if	( x<49)
+		{
+          cout<<"Young abulthood";
+		}
+		
+		else if	( x<65)
+		{
+          cout<<"Mature adulthood";
+		}
+		
+		
+		else
+		{
+          cout<<"Late adulthood";
+		}
+		
+		
+		
+        
+        
+        return 0;
+    }
+
+
+
+
+
+
+11.
+
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       int x;
+        cout<<"Enter your age :";
+    	cin>>x;
+    	cout<<endl;
+    	cout<<endl;
+    	
+    	if ( x==0)
+		{
+          cout<<"Zero";		
+		}	
+    		
+    	else if	( x==1)
+		{
+          cout<<"One";
+		}
+		
+		else if	(x==2)
+		{
+          cout<<"Two";
+		}
+	
+		else if	( x==3)
+		{
+          cout<<"Three";
+		}
+		
+		else if	( x==4)
+		{
+          cout<<"Four";
+		}
+		
+		else if	( x==5)
+		{
+          cout<<"Five";
+		}
+		
+		else if	( x==6)
+		{
+          cout<<"Six";
+		}
+		
+		else if	( x==7)
+		{
+          cout<<"Seven";
+		}
+		
+		else if	( x==8)
+		{
+          cout<<"Eight";
+		}
+		
+		else if	( x==9)
+		{
+          cout<<"Nine";
+		}
+		
+		else if	( x==10)
+		{
+          cout<<"Ten";
+		}
+	
+		
+		
+		
+		else
+		{
+          cout<<"Eror 444 give a number between 0 to 10";
+		}
+		
+		
+		
+        
+        
+        return 0;
+    }
+
+
+
+
+
+12.
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       float x,y,z;
+       
+    	cout<< "Enter the first number :";
+    	cin>>x;
+    	cout<< "Enter the second number :";
+    	cin>>y;
+    	cout<< "Enter the third number :";
+    	cin>>z;
+       cout<<endl;
+       cout<<endl;
+       
+     if(x<y && x<z){
+            //check whether x is smallest than y and z
+        cout<<"The smallest number : "<<x<<endl;
+    }//if it is truen this statement is displayed
+    else if(y<z){
+        //when it is false then check y or z to small
+        cout<<"The smallest number : "<<y<<endl;//when it is true this statements is displayed
+    }
+    else {
+        cout<<"The smallest number : "<<z<<endl;
+    }//all statements are false this statement is displayed
+//check largest
+    if(x>y && x>z){//check largest
+            //check whether x is largest than y and z+
+        cout<<"The largest number : "<<x<<endl;
+    }//if it is true this statement is displayed
+    else if(y>z){
+        //when it is false then check y or z to large
+        cout<<"The largest number : "<<y<<endl;//when it is true this statements is displayed
+    }
+    else{
+        cout<<"The largest number : "<<z<<endl;
+    }//all conditions are false this statement is displayed
+   
+        
+        
+        return 0;
+    }
+
+
+
+
+
+13.
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       int year;
+       
+       cout<<"Enter the year : ";
+       cin>>year;
+       
+       if (year%4==0){
+	   
+       
+         if (year%100==0){
+		 
+         
+          if (year%400==0)
+          	cout<<"Leap year.";
+		  
+            else 
+	        cout<<"Not a leap year.";
+	        }
+	      else 
+	       cout<<"Not a leap year.";
+	       }
+	     else 
+	       cout<<"Not a leap year.";
+		
+        
+        
+        return 0;
+    }
+
+
+
+  Extra 13.
+
+ #include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       int year;
+       
+       cout<<"Enter the year : ";
+       cin>>year;
+       
+       if (((year%4==0)&&(year%100!=0))||(year%400==0)){
+	
+          	cout<<"Leap year.";
+	          }
+	     else 
+	       cout<<"Not a leap year.";
+		
+        
+        
+        return 0;
+    }
+
+
+
+
+
+14.
+
+
+NOT DONE
+
+
+
+#include<iostream>
+ 
+using namespace std;
+ 
+int main()
+{  
+	char ch;
+	cout<<"Enter any character: ";
+	cin>>ch;
+ 
+	if(ch>=65&&ch<=90){
+	
+		cout<<endl<<"You entered an uppercase character";}
+	else if(ch>=48&&ch<=57){
+	
+			cout<<endl<<"You entered a digit";}
+	else if(ch>=97&&ch<=122){
+	
+			cout<<endl<<"You entered a lowercase character";}
+	else
+			cout<<endl<<"You entered a special character";
+	
+
+	 
+	return 0;
+}
+
+
+
+17.
+
+
+
+#include <iostream>
+ using namespace std;
+
+    int main()
+    {
+       float x,y,z;
+       
+    	cout<< "Enter the first number :";
+    	cin>>x;
+    	cout<< "Enter the second number :";
+    	cin>>y;
+    	cout<< "Enter the third number :";
+    	cin>>z;
+       cout<<endl;
+       cout<<endl;
+       
+    if(x>y && x>z){
+    	if (x*x==y*y+z*z){
+    		cout<<"Right triangle.";
+		}
+		else 
+		  cout<<"Not a right triangle.";        
+    	}
+    else if(y>z){
+        if (y*y==x*x+z*z){
+    		cout<<"Right triangle.";
+		}
+		else 
+		  cout<<"Not a right triangle.";
+    	}
+    
+	else  {
+		
+		if (z*z==y*y+x*x){
+    		cout<<"Right triangle.";
+		}
+		else 
+		  cout<<"Not a right triangle.";
+        
+        
+    	}
+   
+        
+        
+        return 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+18.
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+	
+	float r,w,l,h,b,a,Area,Volume,option,pi;
+	      pi=3.14;
+    
+   cout<<"1. Area of a circle "<<endl;
+   cout<<"2. Area of a rectangle"<<endl; 
+   cout<<"3. Area of a triangle"<<endl;
+   cout<<"4. Volume of a cylinder"<<endl; 
+   cout<<"5. Volume of a sphere"<<endl;
+   cout<<"6. Volume of a cube"; 
+   cout<<endl;
+   cout<<endl;
+   
+   cout<<"Select an option (1-6): ";
+   cin>>option;
+   cout<<endl;
+   cout<<endl;
+
+	if (option == 1){
+		cout<<"Area of a circle"<<endl<<endl;
+		
+		cout<<"Enter the circle's redius: ";
+		cin>>r;
+		cout<<endl;
+		cout<<endl;
+		
+		
+		Area = pi * r * r;
+		
+		cout<<"Area of a circle : "<<Area;
+		
+		
+	}
+	
+	
+	else if (option == 2){
+		cout<<"Area of a rectangle"<<endl<<endl;
+		
+		cout<<"Enter the rectangle's length :";
+		cin>>l;
+		cout<<endl;
+		cout<<"Enter the rectangle's width :";
+		cin>>w;
+		cout<<endl;
+		cout<<endl;
+		
+		
+		Area = w*l;
+		
+		cout<<"Area of a rectangle : "<<Area;
+		
+		
+	}
+	
+	
+	else if (option == 3){
+		cout<<"Area of a triangle"<<endl<<endl;
+		
+		cout<<"Enter the triangle's height :";
+		cin>>h;
+		cout<<endl;
+		cout<<"Enter the triangle's base :";
+		cin>>b;
+		cout<<endl;
+		cout<<endl;
+		
+		
+		Area = (h * b)/2;
+		
+		cout<<"Area of a triangle : "<<Area;
+		
+		
+	}
+	
+	
+	else if (option == 4){
+		cout<<"Volume of a cylinder"<<endl<<endl;
+		
+		cout<<"Enter the cylinder's redius :";
+		cin>>r;
+		cout<<endl;
+		cout<<"Enter the cylinder's height :";
+		cin>>h;
+		cout<<endl;
+		cout<<endl;
+		
+		
+	    Volume = pi * r* r* h;
+		
+		cout<<"Volume of a cylinder : "<<Volume;
+		
+		
+	}
+	
+	else if (option == 5){
+		cout<<"Volume of a sphere"<<endl<<endl;
+		
+		cout<<"Enter the sphere's redius :";
+		cin>>r;
+		cout<<endl;
+		cout<<endl;
+		
+		
+	    Volume = (4 * pi * r* r* r)/3;
+		
+		cout<<"Volume of a sphere : "<<Volume;
+		
+		
+	}
+	
+	
+	else if  (option == 6){
+		cout<<"Volume of a cube"<<endl<<endl;
+		
+		cout<<"Enter the cube's edge :";
+		cin>>a;
+		cout<<endl;
+		cout<<endl;
+		
+		
+	    Volume =  a* a* a;
+		
+		cout<<"Volume of a cube : "<<Volume;
+		
+		
+	}
+	
+
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

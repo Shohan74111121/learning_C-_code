@@ -1,0 +1,19 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout << "Mofis says to Bilkis," ;
+    cout <<"\"I really like you.\"";
+    cout << endl;
+    cout <<"Bilkis replies with obvious disinterest,";
+    cout <<"\"Get away from me.\"";
+    cout << endl;
+    cout <<"Mofis’s heart starts pounding. He stutters,";
+    cout <<"\"why?\"";
+    cout << endl;
+    cout <<"Bilkis looks at Mofis and says,";
+    cout <<"\"Because I’m in love with Shamsu!\"";
+    return 0;
+}

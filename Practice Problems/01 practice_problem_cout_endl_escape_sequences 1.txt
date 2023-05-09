@@ -1,0 +1,76 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"(\\__/)";
+    cout<<endl;
+    cout<<"(='.'=)";
+    cout<<endl;
+    cout<<"C(\")_(\")";
+
+    return 0;
+}
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<",___,";
+    cout<<endl;
+    cout<<"(6v6)";
+    cout<<endl;
+    cout<<"(_^(_\\ ";
+    cout<<endl;
+    cout<<"\"\" \\\\";
+
+    return 0;
+}
+
+
+
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<" /\\_/\\";
+    cout<<endl;
+    cout<<">^,^<";
+    cout<<endl;
+    cout<<"''/ /";
+    cout<<endl;
+    cout<<"'(__)_/";
+    
+    return 0;
+
+
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    cout<<"  @..@";
+    cout<<endl;
+    cout<<" (----)";
+    cout<<endl;
+    cout<<"( >__< )";
+    cout<<endl;
+    cout<<"^^ ~~ ^^";
+
+    return 0;
+}
+
+
+
+
+
+
